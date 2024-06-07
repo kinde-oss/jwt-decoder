@@ -17,22 +17,26 @@ pnpm install @kinde/jwt-decoder
 
 ## Usage
 
-__import function__
+**import function**
+
 ```ts
 import { jwtDecoder } from "@kinde/jwt-decoder";
 ```
 
-__Simple decode__
+**Simple decode**
+
 ```ts
 const decodedToken = jwtDecoder("eyJhbGc...");
 ```
 
-__Decode with extended type__
+**Decode with extended type**
 
 ```ts
-const decodedToken = jwtDecoder<JWTDecoded & {
-  // Extra attributes here
-}>("eyJhbGc...");
+const decodedToken = jwtDecoder<
+  JWTDecoded & {
+    // Extra attributes here
+  }
+>("eyJhbGc...");
 ```
 
 ## Kinde documentation
