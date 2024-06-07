@@ -10,17 +10,29 @@ Simple library to decode JWT tokens
 # npm
 npm install @kinde/jwt-decoder
 # yarn
-yarn add @kinde/management-api-js
+yarn add @kinde/jwt-decoder
 # pnpm
-pnpm install @kinde/management-api-js
+pnpm install @kinde/jwt-decoder
 ```
 
 ## Usage
 
-```js
+__import function__
+```ts
 import { jwtDecoder } from "@kinde/jwt-decoder";
+```
 
+__Simple decode__
+```ts
 const decodedToken = jwtDecoder("eyJhbGc...");
+```
+
+__Decode with extended type__
+
+```ts
+const decodedToken = jwtDecoder<JWTDecoded & {
+  // Extra attributes here
+}>("eyJhbGc...");
 ```
 
 ## Kinde documentation
