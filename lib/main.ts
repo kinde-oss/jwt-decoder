@@ -19,14 +19,18 @@ enum TokenPart {
   body = 1,
 }
 
+type JwtDecoderResult<
+  T,
+  P extends TokenPart = TokenPart.body,
+> = P extends TokenPart.header ? JWTHeader : T | null;
+
 /**
  * Decode JWT token
  * @param {string} token - JWT token to be decoded
- * @param {TokenPart} [part='body'] - Part of the token to be decoded (header, body, or signature)
- * @returns {Object} - Decoded JWT token as an object
- *
+ * @param {TokenPart} [part] - Part of the token to be decoded (header, body, or signature)
+ * @returns {object} - Decoded JWT token as an object
  * @example
- * jwtDecode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c")
+ * jwtDecode("[TOKEN]")
  * Returns:
  *  {
  *    sub: "1234567890",
@@ -34,18 +38,13 @@ enum TokenPart {
  *    iat: 1516239022
  *  }
  *
- * jwtDecode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c", TokenPart.header)
+ * jwtDecode("[TOKEN]", TokenPart.header)
  * Returns:
  *  {
  *    alg: "HS256",
  *    typ: "JWT"
  *  }
  */
-type JwtDecoderResult<
-  T,
-  P extends TokenPart = TokenPart.body,
-> = P extends TokenPart.header ? JWTHeader : T | null;
-
 function jwtDecoder<T = JWTDecoded, P extends TokenPart = TokenPart.body>(
   token?: string,
   part?: P,
