@@ -21,9 +21,9 @@ enum TokenPart {
 
 /**
  * Decode JWT token
- * @param token - JWT token to be decoded
- * @param part - Part of the token to be decoded, default is body
- * @returns - Decoded JWT token
+ * @param {string} token - JWT token to be decoded
+ * @param {TokenPart} [part='body'] - Part of the token to be decoded (header, body, or signature)
+ * @returns {Object} - Decoded JWT token as an object
  *
  * @example
  * jwtDecode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c")
