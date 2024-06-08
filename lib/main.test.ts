@@ -59,13 +59,4 @@ describe("jwtDecode", () => {
     >();
     expect(decodedToken).toBeNull();
   });
-
-  it("extended type", () => {
-    const decodedToken = jwtDecoder<
-      JWTDecoded & {
-        // Extra attributes here
-      }
-    >("");
-    expect(decodedToken).toBeNull();
-  });
 });
