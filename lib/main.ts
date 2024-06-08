@@ -43,13 +43,13 @@ enum TokenPart {
  */
 type JwtDecoderResult<
   T,
-  P extends TokenPart | undefined = undefined,
+  P extends TokenPart = TokenPart.body,
 > = P extends TokenPart.header ? JWTHeader : T | null;
 
-function jwtDecoder<
-  T = JWTDecoded,
-  P extends TokenPart | undefined = undefined,
->(token?: string, part?: P): JwtDecoderResult<T, P> | null {
+function jwtDecoder<T = JWTDecoded, P extends TokenPart = TokenPart.body>(
+  token?: string,
+  part?: P,
+): JwtDecoderResult<T, P> | null {
   if (!token) {
     return null;
   }
@@ -59,7 +59,7 @@ function jwtDecoder<
     return null;
   }
 
-  const base64Url = tokenSplit[part !== undefined ? part : TokenPart.body];
+  const base64Url = tokenSplit[part ?? TokenPart.body];
   const base64 = base64Url.replace(/-/g, "+").replace(/_/g, "/");
 
   const jsonPayload = decodeURIComponent(
