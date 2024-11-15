@@ -2,3 +2,4 @@ generated
 pnpm-lock.yaml
 CHANGELOG.md
 .github
+renovate.json
