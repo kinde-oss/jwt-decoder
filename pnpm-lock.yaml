@@ -18,8 +18,8 @@ devDependencies:
     specifier: 9.x
     version: 9.4.0
   eslint-plugin-jsdoc:
-    specifier: ^48.2.9
-    version: 48.11.0(eslint@9.4.0)
+    specifier: ^50.0.0
+    version: 50.5.0(eslint@9.4.0)
   globals:
     specifier: ^15.4.0
     version: 15.12.0
@@ -82,13 +82,13 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
-  /@es-joy/jsdoccomment@0.46.0:
-    resolution: {integrity: sha512-C3Axuq1xd/9VqFZpW4YAzOx5O9q/LP46uIQy/iNDpHG3fmPa6TBtvfglMCs3RBiBxAIi0Go97r8+jvTt55XMyQ==}
+  /@es-joy/jsdoccomment@0.49.0:
+    resolution: {integrity: sha512-xjZTSFgECpb9Ohuk5yMX5RhUEbfeQcuOp8IF60e+wyzWEF0M5xeSgqsfLtvPEX8BIyOX9saZqzuGPmZ8oWc+5Q==}
     engines: {node: '>=16'}
     dependencies:
       comment-parser: 1.4.1
       esquery: 1.6.0
-      jsdoc-type-pratt-parser: 4.0.0
+      jsdoc-type-pratt-parser: 4.1.0
     dev: true
 
   /@esbuild/aix-ppc64@0.21.5:
@@ -1242,13 +1242,13 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-plugin-jsdoc@48.11.0(eslint@9.4.0):
-    resolution: {integrity: sha512-d12JHJDPNo7IFwTOAItCeJY1hcqoIxE0lHA8infQByLilQ9xkqrRa6laWCnsuCrf+8rUnvxXY1XuTbibRBNylA==}
+  /eslint-plugin-jsdoc@50.5.0(eslint@9.4.0):
+    resolution: {integrity: sha512-xTkshfZrUbiSHXBwZ/9d5ulZ2OcHXxSvm/NPo494H/hadLRJwOq5PMV0EUpMqsb9V+kQo+9BAgi6Z7aJtdBp2A==}
     engines: {node: '>=18'}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
     dependencies:
-      '@es-joy/jsdoccomment': 0.46.0
+      '@es-joy/jsdoccomment': 0.49.0
       are-docs-informative: 0.0.2
       comment-parser: 1.4.1
       debug: 4.3.7
@@ -1709,8 +1709,8 @@ packages:
       argparse: 2.0.1
     dev: true
 
-  /jsdoc-type-pratt-parser@4.0.0:
-    resolution: {integrity: sha512-YtOli5Cmzy3q4dP26GraSOeAhqecewG04hoO8DY56CH4KJ9Fvv5qKWUCCo3HZob7esJQHCv6/+bnTy72xZZaVQ==}
+  /jsdoc-type-pratt-parser@4.1.0:
+    resolution: {integrity: sha512-Hicd6JK5Njt2QB6XYFS7ok9e37O8AYk3jTcppG4YVQnYjOemymvTcmc7OWsmq/Qqj5TdRFO5/x/tIPmBeRtGHg==}
     engines: {node: '>=12.0.0'}
     dev: true
 
