@@ -32,7 +32,7 @@
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.12.0",
     "vite": "^5.2.10",
-    "vite-plugin-dts": "^3.9.0",
+    "vite-plugin-dts": "^4.0.0",
     "vitest": "^1.5.2"
   },
   "packageManager": "pnpm@8.15.9+sha512.499434c9d8fdd1a2794ebf4552b3b25c0a633abcee5bb15e7b5de90f32f47b513aca98cd5cfd001c31f0db454bc3804edccd578501e4ca293a6816166bbd9f81"
