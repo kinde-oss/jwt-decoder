@@ -1,9 +1,9 @@
 # Changelog
 
 
-## 0.2.0...main
+## 0.2.1
 
-[compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.2.0...main)
+[compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.2.0...0.2.1)
 
 ### 🏡 Chore
 
