@@ -11,7 +11,7 @@ export default defineConfig({
       name: "@kinde/jwt-decoder",
       fileName: "jwt-decoder",
     },
-    target: "modules",
+    target: "es2020",
     outDir: "../dist",
     emptyOutDir: true,
   },
