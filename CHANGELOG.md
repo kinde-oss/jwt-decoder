@@ -1,6 +1,20 @@
 # Changelog
 
 
+## 0.2.1
+
+[compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.2.0...0.2.1)
+
+### 🏡 Chore
+
+- Ignore renovate.json ([9bc2001](https://github.com/kinde-oss/jwt-decoder/commit/9bc2001))
+- Update CODEOWNERS for dependency files ([78f087b](https://github.com/kinde-oss/jwt-decoder/commit/78f087b))
+
+### ❤️ Contributors
+
+- Andre Selton <andre@kinde.com>
+- Daniel Rivers ([@DanielRivers](https://github.com/DanielRivers))
+
 ## 0.1.0...main
 
 [compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.1.0...main)
