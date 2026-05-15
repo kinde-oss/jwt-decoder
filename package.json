@@ -26,7 +26,7 @@
     "@types/node": "^24.0.0",
     "@vitest/coverage-v8": "^4.1.5",
     "eslint": "9.x",
-    "eslint-plugin-jsdoc": "^50.0.0",
+    "eslint-plugin-jsdoc": "^62.0.0",
     "globals": "^17.0.0",
     "prettier": "^3.2.5",
     "typescript": "^5.4.5",
