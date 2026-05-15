@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^9.4.0
     version: 9.39.4
   '@types/node':
-    specifier: ^22.0.0
-    version: 22.19.19
+    specifier: ^24.0.0
+    version: 24.12.4
   '@vitest/coverage-v8':
     specifier: ^4.1.5
     version: 4.1.6(vitest@4.1.6)
@@ -34,13 +34,13 @@ devDependencies:
     version: 8.59.3(eslint@9.39.4)(typescript@5.9.3)
   vite:
     specifier: ^8.0.8
-    version: 8.0.13(@types/node@22.19.19)
+    version: 8.0.13(@types/node@24.12.4)
   vite-plugin-dts:
     specifier: ^4.5.4
-    version: 4.5.4(@types/node@22.19.19)(typescript@5.9.3)(vite@8.0.13)
+    version: 4.5.4(@types/node@24.12.4)(typescript@5.9.3)(vite@8.0.13)
   vitest:
     specifier: ^4.1.5
-    version: 4.1.6(@types/node@22.19.19)(@vitest/coverage-v8@4.1.6)(vite@8.0.13)
+    version: 4.1.6(@types/node@24.12.4)(@vitest/coverage-v8@4.1.6)(vite@8.0.13)
 
 packages:
 
@@ -233,27 +233,27 @@ packages:
       '@jridgewell/sourcemap-codec': 1.5.5
     dev: true
 
-  /@microsoft/api-extractor-model@7.33.8(@types/node@22.19.19):
+  /@microsoft/api-extractor-model@7.33.8(@types/node@24.12.4):
     resolution: {integrity: sha512-aIcoQggPyer3B6Ze3usz0YWC/oBwUHfRH5ETUsr+oT2BRA6SfTJl7IKPcPZkX4UR+PohowzW4uMxsvjrn8vm+w==}
     dependencies:
       '@microsoft/tsdoc': 0.16.0
       '@microsoft/tsdoc-config': 0.18.1
-      '@rushstack/node-core-library': 5.23.1(@types/node@22.19.19)
+      '@rushstack/node-core-library': 5.23.1(@types/node@24.12.4)
     transitivePeerDependencies:
       - '@types/node'
     dev: true
 
-  /@microsoft/api-extractor@7.58.5(@types/node@22.19.19):
+  /@microsoft/api-extractor@7.58.5(@types/node@24.12.4):
     resolution: {integrity: sha512-pKQs2MBtGCVcIs1pxkSjhb1GGxYaS3KRCoi7Ki6qCJw6S/zx5ZYvC3CX39RpexBqYcO0asphyrqdW2ifyuSX6A==}
     hasBin: true
     dependencies:
-      '@microsoft/api-extractor-model': 7.33.8(@types/node@22.19.19)
+      '@microsoft/api-extractor-model': 7.33.8(@types/node@24.12.4)
       '@microsoft/tsdoc': 0.16.0
       '@microsoft/tsdoc-config': 0.18.1
-      '@rushstack/node-core-library': 5.23.1(@types/node@22.19.19)
+      '@rushstack/node-core-library': 5.23.1(@types/node@24.12.4)
       '@rushstack/rig-package': 0.7.3
-      '@rushstack/terminal': 0.23.0(@types/node@22.19.19)
-      '@rushstack/ts-command-line': 5.3.8(@types/node@22.19.19)
+      '@rushstack/terminal': 0.23.0(@types/node@24.12.4)
+      '@rushstack/ts-command-line': 5.3.8(@types/node@24.12.4)
       diff: 8.0.4
       minimatch: 10.2.3
       resolve: 1.22.8
@@ -450,7 +450,7 @@ packages:
       picomatch: 4.0.4
     dev: true
 
-  /@rushstack/node-core-library@5.23.1(@types/node@22.19.19):
+  /@rushstack/node-core-library@5.23.1(@types/node@24.12.4):
     resolution: {integrity: sha512-wlKmIKIYCKuCASbITvOxLZXepPbwXvrv7S6ig6XNWFchSyhL/E2txmVXspHY49Wu2dzf7nI27a2k/yV5BA3EiA==}
     peerDependencies:
       '@types/node': '*'
@@ -458,7 +458,7 @@ packages:
       '@types/node':
         optional: true
     dependencies:
-      '@types/node': 22.19.19
+      '@types/node': 24.12.4
       ajv: 8.18.0
       ajv-draft-04: 1.0.0(ajv@8.18.0)
       ajv-formats: 3.0.1(ajv@8.18.0)
@@ -469,7 +469,7 @@ packages:
       semver: 7.7.4
     dev: true
 
-  /@rushstack/problem-matcher@0.2.1(@types/node@22.19.19):
+  /@rushstack/problem-matcher@0.2.1(@types/node@24.12.4):
     resolution: {integrity: sha512-gulfhBs6n+I5b7DvjKRfhMGyUejtSgOHTclF/eONr8hcgF1APEDjhxIsfdUYYMzC3rvLwGluqLjbwCFZ8nxrog==}
     peerDependencies:
       '@types/node': '*'
@@ -477,7 +477,7 @@ packages:
       '@types/node':
         optional: true
     dependencies:
-      '@types/node': 22.19.19
+      '@types/node': 24.12.4
     dev: true
 
   /@rushstack/rig-package@0.7.3:
@@ -487,7 +487,7 @@ packages:
       resolve: 1.22.8
     dev: true
 
-  /@rushstack/terminal@0.23.0(@types/node@22.19.19):
+  /@rushstack/terminal@0.23.0(@types/node@24.12.4):
     resolution: {integrity: sha512-7FfI9irLqnBDxCvMEXdEXLDjaouZsGbKkeGfmW8IOn8aYi7DV9aaXaEQHCcVxWMvEDOkuTf4y6RMDgIY5CFuUQ==}
     peerDependencies:
       '@types/node': '*'
@@ -495,16 +495,16 @@ packages:
       '@types/node':
         optional: true
     dependencies:
-      '@rushstack/node-core-library': 5.23.1(@types/node@22.19.19)
-      '@rushstack/problem-matcher': 0.2.1(@types/node@22.19.19)
-      '@types/node': 22.19.19
+      '@rushstack/node-core-library': 5.23.1(@types/node@24.12.4)
+      '@rushstack/problem-matcher': 0.2.1(@types/node@24.12.4)
+      '@types/node': 24.12.4
       supports-color: 8.1.1
     dev: true
 
-  /@rushstack/ts-command-line@5.3.8(@types/node@22.19.19):
+  /@rushstack/ts-command-line@5.3.8(@types/node@24.12.4):
     resolution: {integrity: sha512-vKL4fVR2TdnMdCmlP71nZUzbNANOYlR7NfN+J/YL9UIvicDIEB+ZtH38LcJECOZUwHia8C5Mg98kc4kPt/ev5w==}
     dependencies:
-      '@rushstack/terminal': 0.23.0(@types/node@22.19.19)
+      '@rushstack/terminal': 0.23.0(@types/node@24.12.4)
       '@types/argparse': 1.0.38
       argparse: 1.0.10
       string-argv: 0.3.2
@@ -551,10 +551,10 @@ packages:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: true
 
-  /@types/node@22.19.19:
-    resolution: {integrity: sha512-dyh/xO2Fh5bYrfWaaqGrRQQGkNdmYw6AmaAUvYeUMNTWQtvb796ikLdmTchRmOlOiIJ1TDXfWgVx1QkUlQ6Hew==}
+  /@types/node@24.12.4:
+    resolution: {integrity: sha512-GUUEShf+PBCGW2KaXwcIt3Yk+e3pkKwWKb9GSyM9WQVE+ep2jzmHdGsHzu4wgcZy5fN9FBdVzjpBQsYlpfpgLA==}
     dependencies:
-      undici-types: 6.21.0
+      undici-types: 7.16.0
     dev: true
 
   /@typescript-eslint/eslint-plugin@8.59.3(@typescript-eslint/parser@8.59.3)(eslint@9.39.4)(typescript@5.9.3):
@@ -721,7 +721,7 @@ packages:
       obug: 2.1.1
       std-env: 4.1.0
       tinyrainbow: 3.1.0
-      vitest: 4.1.6(@types/node@22.19.19)(@vitest/coverage-v8@4.1.6)(vite@8.0.13)
+      vitest: 4.1.6(@types/node@24.12.4)(@vitest/coverage-v8@4.1.6)(vite@8.0.13)
     dev: true
 
   /@vitest/expect@4.1.6:
@@ -749,7 +749,7 @@ packages:
       '@vitest/spy': 4.1.6
       estree-walker: 3.0.3
       magic-string: 0.30.21
-      vite: 8.0.13(@types/node@22.19.19)
+      vite: 8.0.13(@types/node@24.12.4)
     dev: true
 
   /@vitest/pretty-format@4.1.6:
@@ -2015,8 +2015,8 @@ packages:
     resolution: {integrity: sha512-yDJTmhydvl5lJzBmy/hyOAA0d+aqCBuwl818haVdYCRrWV84o7YyeVm4QlVHStqNrrJSTb6jKuFAVqAFsr+K3Q==}
     dev: true
 
-  /undici-types@6.21.0:
-    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
+  /undici-types@7.16.0:
+    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
     dev: true
 
   /universalify@2.0.1:
@@ -2030,7 +2030,7 @@ packages:
       punycode: 2.3.1
     dev: true
 
-  /vite-plugin-dts@4.5.4(@types/node@22.19.19)(typescript@5.9.3)(vite@8.0.13):
+  /vite-plugin-dts@4.5.4(@types/node@24.12.4)(typescript@5.9.3)(vite@8.0.13):
     resolution: {integrity: sha512-d4sOM8M/8z7vRXHHq/ebbblfaxENjogAAekcfcDCCwAyvGqnPrc7f4NZbvItS+g4WTgerW0xDwSz5qz11JT3vg==}
     peerDependencies:
       typescript: '*'
@@ -2039,7 +2039,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      '@microsoft/api-extractor': 7.58.5(@types/node@22.19.19)
+      '@microsoft/api-extractor': 7.58.5(@types/node@24.12.4)
       '@rollup/pluginutils': 5.3.0
       '@volar/typescript': 2.4.28
       '@vue/language-core': 2.2.0(typescript@5.9.3)
@@ -2049,14 +2049,14 @@ packages:
       local-pkg: 1.1.2
       magic-string: 0.30.21
       typescript: 5.9.3
-      vite: 8.0.13(@types/node@22.19.19)
+      vite: 8.0.13(@types/node@24.12.4)
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
     dev: true
 
-  /vite@8.0.13(@types/node@22.19.19):
+  /vite@8.0.13(@types/node@24.12.4):
     resolution: {integrity: sha512-MFtjBYgzmSxmgA4RAfjIyXWpGe1oALnjgUTzzV7QLx/TKxCzjtMH6Fd9/eVK+5Fg1qNoz5VAwsmMs/NofrmJvw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
@@ -2099,7 +2099,7 @@ packages:
       yaml:
         optional: true
     dependencies:
-      '@types/node': 22.19.19
+      '@types/node': 24.12.4
       lightningcss: 1.32.0
       picomatch: 4.0.4
       postcss: 8.5.14
@@ -2109,7 +2109,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@4.1.6(@types/node@22.19.19)(@vitest/coverage-v8@4.1.6)(vite@8.0.13):
+  /vitest@4.1.6(@types/node@24.12.4)(@vitest/coverage-v8@4.1.6)(vite@8.0.13):
     resolution: {integrity: sha512-6lvjbS3p9b4CrdCmguzbh2/4uoXhGE2q71R4OX5sqF9R1bo9Xd6fGrMAfvp5wnCzlBnFVdCOp6onuTQVbo8iUQ==}
     engines: {node: ^20.0.0 || ^22.0.0 || >=24.0.0}
     hasBin: true
@@ -2150,7 +2150,7 @@ packages:
       jsdom:
         optional: true
     dependencies:
-      '@types/node': 22.19.19
+      '@types/node': 24.12.4
       '@vitest/coverage-v8': 4.1.6(vitest@4.1.6)
       '@vitest/expect': 4.1.6
       '@vitest/mocker': 4.1.6(vite@8.0.13)
@@ -2170,7 +2170,7 @@ packages:
       tinyexec: 1.1.2
       tinyglobby: 0.2.16
       tinyrainbow: 3.1.0
-      vite: 8.0.13(@types/node@22.19.19)
+      vite: 8.0.13(@types/node@24.12.4)
       why-is-node-running: 2.3.0
     transitivePeerDependencies:
       - msw
