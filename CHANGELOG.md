@@ -1,9 +1,9 @@
 # Changelog
 
 
-## 0.2.1...main
+## 0.2.2
 
-[compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.2.1...main)
+[compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.2.1...0.2.2)
 
 ### 🩹 Fixes
 
