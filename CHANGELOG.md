@@ -1,6 +1,28 @@
 # Changelog
 
 
+## 0.2.2
+
+[compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.2.1...0.2.2)
+
+### 🩹 Fixes
+
+- **security:** Update vite to v5.4.21 — patch CVE-2025-24010 and others ([350c69f](https://github.com/kinde-oss/jwt-decoder/commit/350c69f))
+- **deps:** Upgrade to latest stable — vite 8, vitest 4, vite-plugin-dts 4 ([64163bb](https://github.com/kinde-oss/jwt-decoder/commit/64163bb))
+
+### 📖 Documentation
+
+- **changelog:** Fix 0.2.1 heading and compare link to 0.2.0...0.2.1 ([56374e1](https://github.com/kinde-oss/jwt-decoder/commit/56374e1))
+
+### 🏡 Chore
+
+- Release v0.2.1 ([300527a](https://github.com/kinde-oss/jwt-decoder/commit/300527a))
+
+### ❤️ Contributors
+
+- Dtoxvanilla1991 <dtoxvanilla@gmail.com>
+- Koosha Owji <koosha.owji@gmail.com>
+
 ## 0.2.1
 
 [compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.2.0...0.2.1)
