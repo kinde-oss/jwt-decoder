@@ -1,6 +1,38 @@
 # Changelog
 
 
+## 0.2.3
+
+[compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.2.2...0.2.3)
+
+### 🩹 Fixes
+
+- **build:** Use bundler module resolution for TS6 CI ([0c6fcfa](https://github.com/kinde-oss/jwt-decoder/commit/0c6fcfa))
+- **security:** Update vite to v8.0.16 ([4a60840](https://github.com/kinde-oss/jwt-decoder/commit/4a60840))
+
+### 🏡 Chore
+
+- **deps:** Update typescript to v6 ([d5a2034](https://github.com/kinde-oss/jwt-decoder/commit/d5a2034))
+- **deps:** Update eslint to v10.4.0 ([60d8c9d](https://github.com/kinde-oss/jwt-decoder/commit/60d8c9d))
+- **deps:** Update eslint monorepo ([2b303f8](https://github.com/kinde-oss/jwt-decoder/commit/2b303f8))
+- **deps:** Update typescript-eslint monorepo ([82f0aef](https://github.com/kinde-oss/jwt-decoder/commit/82f0aef))
+- **deps:** Update eslint-plugin-jsdoc to v63 ([123c2c9](https://github.com/kinde-oss/jwt-decoder/commit/123c2c9))
+- **deps:** Update vitest monorepo to v4.1.9 ([a03589e](https://github.com/kinde-oss/jwt-decoder/commit/a03589e))
+- **deps:** Update vite-plugin-dts to v5.0.2 ([ef03789](https://github.com/kinde-oss/jwt-decoder/commit/ef03789))
+- **deps:** Update prettier to v3.8.4 ([d90b5fd](https://github.com/kinde-oss/jwt-decoder/commit/d90b5fd))
+- **deps:** Update @types/node to v24.13.2 ([6cc7a2f](https://github.com/kinde-oss/jwt-decoder/commit/6cc7a2f))
+- **deps:** Update node to 24.x ([#83](https://github.com/kinde-oss/jwt-decoder/pull/83))
+- **deps:** Update pnpm/action-setup action to v6 ([10be52a](https://github.com/kinde-oss/jwt-decoder/commit/10be52a))
+- **deps:** Update actions/checkout action to v7 ([160c201](https://github.com/kinde-oss/jwt-decoder/commit/160c201))
+- **deps:** Update codecov/codecov-action action to v7 ([a315847](https://github.com/kinde-oss/jwt-decoder/commit/a315847))
+- Update changelog header ([b7d2b1f](https://github.com/kinde-oss/jwt-decoder/commit/b7d2b1f))
+
+### ❤️ Contributors
+
+- Koosha Owji <koosha.owji@gmail.com>
+- Renovate Bot
+- Copilot
+
 ## 0.2.2
 
 [compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.2.1...0.2.2)
