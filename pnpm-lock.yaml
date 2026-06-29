@@ -19,7 +19,7 @@ devDependencies:
     version: 10.5.0
   eslint-plugin-jsdoc:
     specifier: ^63.0.0
-    version: 63.0.7(eslint@10.5.0)
+    version: 63.0.10(eslint@10.5.0)
   globals:
     specifier: ^17.0.0
     version: 17.6.0
@@ -102,7 +102,7 @@ packages:
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     dependencies:
       '@types/estree': 1.0.9
-      '@typescript-eslint/types': 8.61.1
+      '@typescript-eslint/types': 8.62.0
       comment-parser: 1.4.7
       esquery: 1.7.0
       jsdoc-type-pratt-parser: 7.2.0
@@ -225,8 +225,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.5.5
     dev: true
 
-  /@napi-rs/wasm-runtime@1.1.5(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0):
-    resolution: {integrity: sha512-AWPoBRJ9tsnVhor4sjO7rkni+7p+2IAEFj6cx06UgP10jkQHqay/36uRV/bFkgrh18D9vb4cr8Q0Pthskgzy+Q==}
+  /@napi-rs/wasm-runtime@1.1.6(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0):
+    resolution: {integrity: sha512-ZLv/JdUfkvOy9eCnnBaGfiO+XimbjebAeO+MRQqD/B+FR1tnRN0tpKSJHRbE8sFfS6aqsXZ67TQjfwfsxULVbg==}
     requiresBuild: true
     peerDependencies:
       '@emnapi/core': ^1.7.1
@@ -234,7 +234,7 @@ packages:
     dependencies:
       '@emnapi/core': 1.10.0
       '@emnapi/runtime': 1.10.0
-      '@tybys/wasm-util': 0.10.2
+      '@tybys/wasm-util': 0.10.3
     dev: true
     optional: true
 
@@ -358,7 +358,7 @@ packages:
     dependencies:
       '@emnapi/core': 1.10.0
       '@emnapi/runtime': 1.10.0
-      '@napi-rs/wasm-runtime': 1.1.5(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
+      '@napi-rs/wasm-runtime': 1.1.6(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
     dev: true
     optional: true
 
@@ -393,8 +393,8 @@ packages:
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
     dev: true
 
-  /@tybys/wasm-util@0.10.2:
-    resolution: {integrity: sha512-RoBvJ2X0wuKlWFIjrwffGw1IqZHKQqzIchKaadZZfnNpsAYp2mM0h36JtPCjNDAHGgYez/15uMBpfGwchhiMgg==}
+  /@tybys/wasm-util@0.10.3:
+    resolution: {integrity: sha512-F3fo1MYrRJYL3zER0OUOmkutjr1Vp23m7OsSgp7nq4SP6OqX6C/56XFIPAl5bt3zaBRjmW7SGz3u/6LwFpYcOg==}
     requiresBuild: true
     dependencies:
       tslib: 2.8.1
@@ -522,6 +522,11 @@ packages:
 
   /@typescript-eslint/types@8.61.1:
     resolution: {integrity: sha512-G+CRlPqLv7Bz1IZVs03x5K59F1veqL0EJUROAdGhKsEq8qOiRiZbI+HUojPq5l0fEGOKModD9br6lObhB8zkoA==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    dev: true
+
+  /@typescript-eslint/types@8.62.0:
+    resolution: {integrity: sha512-KvAclkktORPvM54TgLgA4z9HIV1M8zOgw9ZVNXl9f/8dLYfXYX1wkMXP7qmabpijQRV5bHJLOmoyGQbLMaUYeg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     dev: true
 
@@ -760,8 +765,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-plugin-jsdoc@63.0.7(eslint@10.5.0):
-    resolution: {integrity: sha512-pxrqGO733F7xmVYB5vQOiciiT9uddxqehawnbPjZmW2YaJR6fT5cP3UQd2BNoE85ATspCMtNL8w/a5WDGX3Qwg==}
+  /eslint-plugin-jsdoc@63.0.10(eslint@10.5.0):
+    resolution: {integrity: sha512-A9UIWsCquaKnit7rasXxYf12hhGIdDRjv65/RUE3AxbT6rdKBvr3MjH37g3gP+g4ipQMXuMn9slFKjO+vqNfkg==}
     engines: {node: ^22.13.0 || >=24}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
