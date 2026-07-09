@@ -10,7 +10,7 @@ devDependencies:
     version: 10.0.1(eslint@10.6.0)
   '@types/node':
     specifier: ^24.0.0
-    version: 24.13.2
+    version: 24.13.3
   '@vitest/coverage-v8':
     specifier: ^4.1.5
     version: 4.1.9(vitest@4.1.9)
@@ -34,10 +34,10 @@ devDependencies:
     version: 8.62.1(eslint@10.6.0)(typescript@6.0.3)
   vite:
     specifier: ^8.0.8
-    version: 8.1.0(@types/node@24.13.2)
+    version: 8.1.0(@types/node@24.13.3)
   vitest:
     specifier: ^4.1.5
-    version: 4.1.9(@types/node@24.13.2)(@vitest/coverage-v8@4.1.9)(vite@8.1.0)
+    version: 4.1.9(@types/node@24.13.3)(@vitest/coverage-v8@4.1.9)(vite@8.1.0)
 
 packages:
 
@@ -424,8 +424,8 @@ packages:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: true
 
-  /@types/node@24.13.2:
-    resolution: {integrity: sha512-fRa09kZTgu8o71KFcDjUFuc7F+dEbZYZmkI0mg5YBTRs0yMKjYHsq/c0urDKeDb+D5qVgXOdFcuu+DZPKOITwA==}
+  /@types/node@24.13.3:
+    resolution: {integrity: sha512-Dh8vAsV36ig5wa9OX4pXvMc9D3Veibfw2wix0CUwYODLD8nkj9UsLjASr49nPg+2eKzxhBV+v7L8pXvT4e639Q==}
     dependencies:
       undici-types: 7.18.2
     dev: true
@@ -594,7 +594,7 @@ packages:
       obug: 2.1.3
       std-env: 4.1.0
       tinyrainbow: 3.1.0
-      vitest: 4.1.9(@types/node@24.13.2)(@vitest/coverage-v8@4.1.9)(vite@8.1.0)
+      vitest: 4.1.9(@types/node@24.13.3)(@vitest/coverage-v8@4.1.9)(vite@8.1.0)
     dev: true
 
   /@vitest/expect@4.1.9:
@@ -622,7 +622,7 @@ packages:
       '@vitest/spy': 4.1.9
       estree-walker: 3.0.3
       magic-string: 0.30.21
-      vite: 8.1.0(@types/node@24.13.2)
+      vite: 8.1.0(@types/node@24.13.3)
     dev: true
 
   /@vitest/pretty-format@4.1.9:
@@ -1502,7 +1502,7 @@ packages:
       punycode: 2.3.1
     dev: true
 
-  /vite@8.1.0(@types/node@24.13.2):
+  /vite@8.1.0(@types/node@24.13.3):
     resolution: {integrity: sha512-BuJcQK/56NQTWDGn4ABea3q4SSBdNPWwNZKTkkUpcMPnLoquSYH8llRtSUIgoL1KSCpHt5eghLShn50mH36y7Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
@@ -1545,7 +1545,7 @@ packages:
       yaml:
         optional: true
     dependencies:
-      '@types/node': 24.13.2
+      '@types/node': 24.13.3
       lightningcss: 1.32.0
       picomatch: 4.0.4
       postcss: 8.5.16
@@ -1555,7 +1555,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@4.1.9(@types/node@24.13.2)(@vitest/coverage-v8@4.1.9)(vite@8.1.0):
+  /vitest@4.1.9(@types/node@24.13.3)(@vitest/coverage-v8@4.1.9)(vite@8.1.0):
     resolution: {integrity: sha512-nE3/LEyc0z87uHYLZebqCUOaJr2hdtuPp7BQ4BosVFnfltxgAvMG08NyrSGlPpOUWvR27c5flSmYFTNr78L9GQ==}
     engines: {node: ^20.0.0 || ^22.0.0 || >=24.0.0}
     hasBin: true
@@ -1596,7 +1596,7 @@ packages:
       jsdom:
         optional: true
     dependencies:
-      '@types/node': 24.13.2
+      '@types/node': 24.13.3
       '@vitest/coverage-v8': 4.1.9(vitest@4.1.9)
       '@vitest/expect': 4.1.9
       '@vitest/mocker': 4.1.9(vite@8.1.0)
@@ -1616,7 +1616,7 @@ packages:
       tinyexec: 1.2.4
       tinyglobby: 0.2.17
       tinyrainbow: 3.1.0
-      vite: 8.1.0(@types/node@24.13.2)
+      vite: 8.1.0(@types/node@24.13.3)
       why-is-node-running: 2.3.0
     transitivePeerDependencies:
       - msw
