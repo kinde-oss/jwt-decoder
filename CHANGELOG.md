@@ -1,6 +1,28 @@
 # Changelog
 
 
+## 0.2.4
+
+[compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.2.3...0.2.4)
+
+### 🩹 Fixes
+
+- Restore type declarations via tsc and add CI guard ([78ec2bf](https://github.com/kinde-oss/jwt-decoder/commit/78ec2bf))
+- Remove vite-plugin-dts from package.json ([a140b49](https://github.com/kinde-oss/jwt-decoder/commit/a140b49))
+
+### 🏡 Chore
+
+- Release 0.2.3 ([3720005](https://github.com/kinde-oss/jwt-decoder/commit/3720005))
+
+### 🤖 CI
+
+- Remove duplicate pnpm version from workflow ([e6cdca3](https://github.com/kinde-oss/jwt-decoder/commit/e6cdca3))
+
+### ❤️ Contributors
+
+- Shafal Adhikari <adhikarishafal0@gmail.com>
+- Koosha Owji <koosha.owji@gmail.com>
+
 ## 0.2.3
 
 [compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.2.2...0.2.3)
