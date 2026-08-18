@@ -1,24 +1,56 @@
 # Changelog
 
+## 0.2.5
+
+[compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.2.4...0.2.5)
+
+### Fixes
+
+- **security:** Update vite to v8.0.16 ([73e3355](https://github.com/kinde-oss/jwt-decoder/commit/73e3355))
+
+### Chore
+
+- **deps:** Update typescript-eslint to v8.67.0 ([125f14c](https://github.com/kinde-oss/jwt-decoder/commit/125f14c))
+- **deps:** Update eslint to v10.8.1 ([48a75f2](https://github.com/kinde-oss/jwt-decoder/commit/48a75f2))
+- **deps:** Update vitest monorepo to v4.1.10 ([c900dac](https://github.com/kinde-oss/jwt-decoder/commit/c900dac))
+- **deps:** Update prettier to v3.9.6 ([ca0595f](https://github.com/kinde-oss/jwt-decoder/commit/ca0595f))
+- **deps:** Update eslint-plugin-jsdoc to v63.3.3 ([a8f8eb3](https://github.com/kinde-oss/jwt-decoder/commit/a8f8eb3))
+- **deps:** Update globals to v17.9.0 ([cf44476](https://github.com/kinde-oss/jwt-decoder/commit/cf44476))
+- **deps:** Update @types/node to v24.13.3 ([417aba6](https://github.com/kinde-oss/jwt-decoder/commit/417aba6))
+- **deps:** Update pnpm to v11.21.0 ([5984192](https://github.com/kinde-oss/jwt-decoder/commit/5984192))
+- Standardize Renovate config with release-age cooldown ([1b17d25](https://github.com/kinde-oss/jwt-decoder/commit/1b17d25))
+- Release v0.2.4 ([1600a27](https://github.com/kinde-oss/jwt-decoder/commit/1600a27))
+
+### CI
+
+- Run build workflow on Node.js 22 for pnpm 11 ([31a9089](https://github.com/kinde-oss/jwt-decoder/commit/31a9089))
+- Remove unsupported pnpm global config step ([e694a75](https://github.com/kinde-oss/jwt-decoder/commit/e694a75))
+- Avoid pnpm version conflict in workflow ([063a0d1](https://github.com/kinde-oss/jwt-decoder/commit/063a0d1))
+
+### Contributors
+
+- Shafal Adhikari <adhikarishafal0@gmail.com>
+- Koosha Owji <koosha.owji@gmail.com>
+- Renovate Bot
 
 ## 0.2.4
 
 [compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.2.3...0.2.4)
 
-### 🩹 Fixes
+### Fixes
 
 - Restore type declarations via tsc and add CI guard ([78ec2bf](https://github.com/kinde-oss/jwt-decoder/commit/78ec2bf))
 - Remove vite-plugin-dts from package.json ([a140b49](https://github.com/kinde-oss/jwt-decoder/commit/a140b49))
 
-### 🏡 Chore
+### Chore
 
 - Release 0.2.3 ([3720005](https://github.com/kinde-oss/jwt-decoder/commit/3720005))
 
-### 🤖 CI
+### CI
 
 - Remove duplicate pnpm version from workflow ([e6cdca3](https://github.com/kinde-oss/jwt-decoder/commit/e6cdca3))
 
-### ❤️ Contributors
+### Contributors
 
 - Shafal Adhikari <adhikarishafal0@gmail.com>
 - Koosha Owji <koosha.owji@gmail.com>
@@ -27,12 +59,12 @@
 
 [compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.2.2...0.2.3)
 
-### 🩹 Fixes
+### Fixes
 
 - **build:** Use bundler module resolution for TS6 CI ([0c6fcfa](https://github.com/kinde-oss/jwt-decoder/commit/0c6fcfa))
 - **security:** Update vite to v8.0.16 ([4a60840](https://github.com/kinde-oss/jwt-decoder/commit/4a60840))
 
-### 🏡 Chore
+### Chore
 
 - **deps:** Update typescript to v6 ([d5a2034](https://github.com/kinde-oss/jwt-decoder/commit/d5a2034))
 - **deps:** Update eslint to v10.4.0 ([60d8c9d](https://github.com/kinde-oss/jwt-decoder/commit/60d8c9d))
@@ -49,7 +81,7 @@
 - **deps:** Update codecov/codecov-action action to v7 ([a315847](https://github.com/kinde-oss/jwt-decoder/commit/a315847))
 - Update changelog header ([b7d2b1f](https://github.com/kinde-oss/jwt-decoder/commit/b7d2b1f))
 
-### ❤️ Contributors
+### Contributors
 
 - Koosha Owji <koosha.owji@gmail.com>
 - Renovate Bot
@@ -59,20 +91,20 @@
 
 [compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.2.1...0.2.2)
 
-### 🩹 Fixes
+### Fixes
 
 - **security:** Update vite to v5.4.21 — patch CVE-2025-24010 and others ([350c69f](https://github.com/kinde-oss/jwt-decoder/commit/350c69f))
 - **deps:** Upgrade to latest stable — vite 8, vitest 4, vite-plugin-dts 4 ([64163bb](https://github.com/kinde-oss/jwt-decoder/commit/64163bb))
 
-### 📖 Documentation
+### Documentation
 
 - **changelog:** Fix 0.2.1 heading and compare link to 0.2.0...0.2.1 ([56374e1](https://github.com/kinde-oss/jwt-decoder/commit/56374e1))
 
-### 🏡 Chore
+### Chore
 
 - Release v0.2.1 ([300527a](https://github.com/kinde-oss/jwt-decoder/commit/300527a))
 
-### ❤️ Contributors
+### Contributors
 
 - Dtoxvanilla1991 <dtoxvanilla@gmail.com>
 - Koosha Owji <koosha.owji@gmail.com>
@@ -81,58 +113,56 @@
 
 [compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.2.0...0.2.1)
 
-### 🏡 Chore
+### Chore
 
 - Ignore renovate.json ([9bc2001](https://github.com/kinde-oss/jwt-decoder/commit/9bc2001))
 - Update CODEOWNERS for dependency files ([78f087b](https://github.com/kinde-oss/jwt-decoder/commit/78f087b))
 
-### ❤️ Contributors
+### Contributors
 
 - Andre Selton <andre@kinde.com>
 - Daniel Rivers ([@DanielRivers](https://github.com/DanielRivers))
 
-## 0.1.0...main
+## 0.2.0
 
-[compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.1.0...main)
+[compare changes](https://github.com/kinde-oss/jwt-decoder/compare/0.1.0...0.2.0)
 
-### 🚀 Enhancements
+### Enhancements
 
 - Add token complete check and option to decode the header part of the token ([f2303f1](https://github.com/kinde-oss/jwt-decoder/commit/f2303f1))
 - Update types to indicate TokenPart is defaulted ([43c2550](https://github.com/kinde-oss/jwt-decoder/commit/43c2550))
 
-### 🩹 Fixes
+### Fixes
 
 - Jsdocs ([272fe2d](https://github.com/kinde-oss/jwt-decoder/commit/272fe2d))
 
-### 📖 Documentation
+### Documentation
 
 - Update jsDoc ([a6b65dc](https://github.com/kinde-oss/jwt-decoder/commit/a6b65dc))
 
-### 🏡 Chore
+### Chore
 
 - Lint ([2388f12](https://github.com/kinde-oss/jwt-decoder/commit/2388f12))
 - Format readme ([5ac4454](https://github.com/kinde-oss/jwt-decoder/commit/5ac4454))
 - Remove redundant test ([963bfa9](https://github.com/kinde-oss/jwt-decoder/commit/963bfa9))
 - Add eslint ([718fea4](https://github.com/kinde-oss/jwt-decoder/commit/718fea4))
 
-### 🤖 CI
+### CI
 
 - Add workflow ([0d611db](https://github.com/kinde-oss/jwt-decoder/commit/0d611db))
 - Fix broken flow ([3197d94](https://github.com/kinde-oss/jwt-decoder/commit/3197d94))
 - Update workflow versions ([6de34f3](https://github.com/kinde-oss/jwt-decoder/commit/6de34f3))
 
-### ❤️ Contributors
+### Contributors
 
 - Daniel Rivers ([@DanielRivers](http://github.com/DanielRivers))
 
-## ...main
+## 0.1.0
 
-
-### 🚀 Enhancements
+### Enhancements
 
 - Jwt-decoder ([d5bfa44](https://github.com/kinde-oss/jwt-decoder/commit/d5bfa44))
 
-### ❤️ Contributors
+### Contributors
 
 - Daniel Rivers ([@DanielRivers](http://github.com/DanielRivers))
-
