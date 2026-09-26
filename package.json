@@ -24,7 +24,7 @@
   "devDependencies": {
     "@eslint/js": "^10.0.0",
     "@types/node": "^24.0.0",
-    "@vitest/coverage-v8": "^4.1.5",
+    "@vitest/coverage-v8": "^5.0.0",
     "eslint": "10.x",
     "eslint-plugin-jsdoc": "^64.0.0",
     "globals": "^17.0.0",
@@ -32,7 +32,7 @@
     "typescript": "^6.0.0",
     "typescript-eslint": "^8.0.0",
     "vite": "^8.0.8",
-    "vitest": "^4.1.5"
+    "vitest": "^5.0.0"
   },
   "packageManager": "pnpm@12.5.0+sha512.9cdbaa34ffacae1768635ac0d23e94db6201c7d59bf3da236b23d67c8f6b794d1dab323bcd5bcc51b55c8cafbf6f19a24e4aa61d6ab7772aa3b5cc85e325dc4d"
 }
